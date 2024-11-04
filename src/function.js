@@ -11,3 +11,9 @@ function RolarParaDireita() {
     setaDireita.style = "display: none";
 }
 
+function RolarParaEsquerda() {
+    Bruna.style = "display: none";
+    Leonardo.style = "display: flex";
+    setaDireita.style = "display: flex";
+    setaEsquerda.style = "display: none";
+}
