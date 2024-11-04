@@ -1,0 +1,101 @@
+* {
+    margin: 0px;
+    font-family: "Inter", sans-serif;
+}
+
+#logo {
+    width: 150px;
+    margin-left: 75px;
+    margin-top: 50px;
+}
+
+#title {
+    margin-left: 225px;
+    margin-top: 100px;
+    font-size: 40px;
+}
+
+#subtitle {
+    margin-left: 225px;
+    margin-top: 50px;
+    font-size: 20px;
+    padding-bottom: 100px;
+}
+
+#header {
+    background-image: url(img/header.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: aliceblue;
+}
+
+#container-info {
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.icon {
+    margin: 50px 0px 50px 100px;
+    padding: 20px;
+}
+
+.info-text-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#secaovideo {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#text-reference {
+    margin-right: 300px;
+    margin-top: 70px;
+}
+
+#text-reference h1 {
+    color: #247BA0;
+    margin-top: 50px;
+}
+
+#video {
+    margin: 50px 25px 50px 500px;
+}
+
+#carrossel {
+    background-color: #247BA0;  
+    padding: 50px;
+}
+
+#carrossel-title {
+    color: #EAECE5;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 25px;
+}
+
+#div-cards{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    margin: 50px 30px 50px 50px;
+}
+
+#seta-esquerda {
+    display: none;
+}
+
+#bruna {
+    display: none;
+}
+
