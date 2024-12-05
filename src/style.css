@@ -107,3 +107,14 @@
     transform: translateY(-7px);
     transition-duration: 0.5s;
 }
+
+#form {
+    text-align: center;
+}
+
+#form-title {
+    font-size: 25px;
+    margin: 25px;
+    color: #383838;
+    
+}
