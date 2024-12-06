@@ -116,5 +116,27 @@
     font-size: 25px;
     margin: 25px;
     color: #383838;
+}
+
+#cadastro {
+    width: 300px;
+    height: 30px;
+    background-color: #EAECE5;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+#botao-cadastro {
+    background-color: #247BA0;
+    height: 40px;
+    width: 250px;
+    color: #EAECE5;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
     
 }
