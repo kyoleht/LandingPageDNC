@@ -58,11 +58,12 @@
 
 <div id="form">
     <h1 id="form-title">Comece agora mesmo e dê o próximo passo da sua carreira</h1>
-    <form id="cadastro">
-        <input type="text" placeholder="Nome"> <br>
-        <input type="email" placeholder="Email"> <br>
-        <input type="tel" placeholder="Telefone"> <br>
-        <button id="botao-cadastro">Acesse a emenda gratuitamente</button>
+    <form id="cadastro" action="https://api.sheetmonkey.io/form/qABRQPNjqtApxhSgjGnqdE" method="POST">
+        <input type="text" placeholder="Nome" name="Nome" required> <br>
+        <input type="email" placeholder="Email" name="Email" required> <br>
+        <input type="tel" placeholder="Telefone" name="Telefone" required> <br>
+        <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+        <button type="submit" id="botao-cadastro">Acesse a nossa página oficial</button>
     </form>
 </div>
 

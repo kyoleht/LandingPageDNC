@@ -118,7 +118,7 @@
     color: #383838;
 }
 
-#cadastro {
+#cadastro input{
     width: 300px;
     height: 30px;
     background-color: #EAECE5;
@@ -138,5 +138,12 @@
     margin-bottom: 50px;
     font-weight: bolder;
     cursor: pointer;
-    
+}
+
+#botao-cadastro:hover {
+    background-color: #318fb8;
+    color: white;
+    transform: translateY(-0.5px);
+    box-shadow: 0px 2px 4px #13141a;
+    transition-duration: 0.5s;
 }
